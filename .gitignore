@@ -1,8 +1,2 @@
-LC/*.exe
-LC/*.out
-mooc/*.exe
-mocc/*.out
-PTABCC/*.exe
-PTABCC/*.out
-PTABCC/hebau/*.exe
-PTABCC/hebau/*.out
+*.exe
+*.out
