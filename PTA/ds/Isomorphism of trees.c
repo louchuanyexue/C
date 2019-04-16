@@ -1,19 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define MaxTree 10
-#define ElementType char
 #define Tree int
 #define Null -1
 
 struct TreeNode
 {
-	ElementType Element;
+	char Element;
 	Tree Left;
 	Tree Right;
 }T1[MaxTree],T2[MaxTree];
 
 Tree BuildTree(struct TreeNode T[]){
-	int N,Root,i=-1;
+	int N,i=-1;
 	int check[MaxTree];
 	char cl,cr;
 	scanf("%d",&N);
