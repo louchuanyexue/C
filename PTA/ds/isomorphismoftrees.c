@@ -13,15 +13,13 @@ struct BTnode{
 Tree BuildTree(struct BTnode T[]){
     char cl,cr;
     int n,i=-1;
-    scanf("%d",&n);
-    getchar;
+    scanf("%d\n",&n);
     int check[maxsize];
     for(i=0;i<n;i++) check[i] = 0;
     if(!n)return Null;
     if(n){
         for(i=0;i<n;i++){
-			scanf("%c %c %c",&T[i].element,&cl,&cr);
-			getchar;
+			scanf("%c %c %c\n",&T[i].element,&cl,&cr);
             if(cl!='-'){
 				T[i].left=cl-'0';
 				check[T[i].left]=1;

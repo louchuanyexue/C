@@ -1,6 +1,8 @@
-void PrintN(int N)
+#include<stdio.h>
+int main(int argc, char const *argv[])
 {
-    for(int i = 1;i <= N;i++){
-        printf("%d\n", i);
-    }
+    int a=10;
+    float  b=2.1;
+    printf("%.1f",a/b);
+    return 0;
 }
